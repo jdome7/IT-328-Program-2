@@ -1,7 +1,9 @@
+# IT 328 Project 2, By: Marcos Avila and Josiah Domercant
+
 import sys
 import subprocess
 
-# read DGSP input
+# read DGSP input, made with the aid of generative AI
 def read_input(filename):
     with open(filename, "r") as f:
         lines = [line.strip() for line in f.readlines() if line.strip()]
@@ -27,7 +29,7 @@ def color_of(i):
     else:
         return "r"
 
-# build layered graph
+# build layered graph, made with the aid of generative AI to match formatting of 3CSP input
 def build_G(n, adj, u, v, l):
     G_vertices = []
     G_edges = []

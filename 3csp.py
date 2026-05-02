@@ -1,3 +1,5 @@
+# IT 328 Project 2, By: Marcos Avila and Josiah Domercant
+
 from collections import deque
 
 def solve_3csp(filename):
